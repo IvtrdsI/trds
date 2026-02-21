@@ -1,0 +1,42 @@
+:root {
+	--fg0: #b0b0b0;
+	--fg1: #020202;
+	--bg0: #202020;
+	--bg1: #0ccc68;
+	--bg2: #0aaa67;
+}
+
+
+body {
+	font-family: Arial, sans-serif;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	margin: 0;
+	background-color: var(--bg0);
+}
+
+.container {
+	text-align: center;
+}
+
+h1 {
+	font-size: 33px;
+	color: var(--fg0);
+}
+
+button {
+	padding: 15px 30px;
+	font-size: 1.2em;
+	color: var(--fg1);
+	background-color: var(--bg1);
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+}
+
+button:hover {
+	background-color: var(--bg2);
+}
